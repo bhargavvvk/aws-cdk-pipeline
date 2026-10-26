@@ -9,11 +9,12 @@ export class S3Stack extends cdk.Stack {
 
     new s3.Bucket(this, 'Day5Bucket', {
       bucketName: `day5-pipeline-${this.account}-${this.region}`,
-      versioned: true,
+      versioned: false,
       encryption: s3.BucketEncryption.S3_MANAGED,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       autoDeleteObjects: true,
+
     });
   }
 }
