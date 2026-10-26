@@ -1,0 +1,313 @@
+{
+  "/Day5PipelineStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/Users/bhargav/Documents/Terraform/Day5/bin/day5.ts:7:1)",
+        "...node internals, ts-node, ts-node, ts-node..."
+      ]
+    },
+    {
+      "type": "aws:cdk:templateFile",
+      "data": "Day5PipelineStack.template.json"
+    }
+  ],
+  "/Day5PipelineStack/Pipeline": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "V1 pipeline type is implicitly selected when `pipelineType` is not set. If you want to use V2 type, set `PipelineType.V2`. [ack: @aws-cdk/aws-codepipeline:unspecifiedPipelineType]",
+      "trace": [
+        "Annotations.addMessage (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/annotations.js:1:3506)",
+        "Annotations.addWarningV2 (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2194)",
+        "CodePipeline.doBuildPipeline (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/codepipeline/codepipeline.js:1:8180)",
+        "CodePipeline.buildPipeline (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:3044)",
+        "CodePipeline.buildJustInTime (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:3111)",
+        "Object.visit (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:1780)",
+        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6189)",
+        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6447)",
+        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6447)",
+        "invokeAspectsV2 (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:4694)",
+        "synthesize (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:2523)",
+        "App.synth (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/stage.js:1:5061)",
+        "App.synth (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/app.js:1:5126)",
+        "process.<anonymous> (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/app.js:1:4036)",
+        "process.wrapper (node:events:639:12)",
+        "process.emit (node:events:514:20)",
+        "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/bhargav/Documents/Terraform/Day5/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Pipeline9850B417"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/CodeBuildActionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineCodeBuildActionRole226DB0CB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/ArtifactsBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineArtifactsBucketAEA9A052"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineRoleB27FAA37"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/CodeBuildActionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineCodeBuildActionRoleDefaultPolicy1D62A6FE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/UpdatePipeline/SelfMutation/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineUpdatePipelineSelfMutationDAA41400"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Assets/FileRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineAssetsFileRole59943A77"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Assets/FileAsset1/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineAssetsFileAsset185A67CB4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/ArtifactsBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineArtifactsBucketPolicyF53CCC52"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineRoleDefaultPolicy7BDC1ABB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/UpdatePipeline/SelfMutation/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineUpdatePipelineSelfMutationRole57E559E8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Assets/FileRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineAssetsFileRoleDefaultPolicy14DB8755"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Source/bhargavvvk_aws-cdk-pipeline/CodePipelineActionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineSourcebhargavvvkawscdkpipelineCodePipelineActionRoleC71D1E05"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/UpdatePipeline/SelfMutation/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineUpdatePipelineSelfMutationRoleDefaultPolicyA225DA4E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Source/bhargavvvk_aws-cdk-pipeline/CodePipelineActionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineSourcebhargavvvkawscdkpipelineCodePipelineActionRoleDefaultPolicyD04E6DA6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineBuildSynthCdkBuildProjectRole231EEA2A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Pipeline/Pipeline/Build/Synth/CdkBuildProject/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PipelineBuildSynthCdkBuildProjectRoleDefaultPolicyFB6C941C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}

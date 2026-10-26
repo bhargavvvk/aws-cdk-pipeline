@@ -1,0 +1,145 @@
+{
+  "/Day5PipelineStack/Dev/S3Stack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStage (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stage.ts:11:5)",
+        "new PipelineStack (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stack.ts:37:7)",
+        "<anonymous> (/Users/bhargav/Documents/Terraform/Day5/bin/day5.ts:7:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    },
+    {
+      "type": "aws:cdk:templateFile",
+      "data": "Day5PipelineStackDevS3StackEBE3A4D4.template.json"
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Day5Bucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Day5Bucket586C2115"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "new S3Stack (/Users/bhargav/Documents/Terraform/Day5/lib/s3-stack.ts:10:5)",
+        "new AppStage (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stage.ts:11:5)",
+        "new PipelineStack (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stack.ts:37:7)",
+        "<anonymous> (/Users/bhargav/Documents/Terraform/Day5/bin/day5.ts:7:1)",
+        "...node internals, ts-node..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Day5Bucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Day5BucketPolicyB3D8A8B0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "new S3Stack (/Users/bhargav/Documents/Terraform/Day5/lib/s3-stack.ts:10:5)",
+        "new AppStage (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stage.ts:11:5)",
+        "new PipelineStack (/Users/bhargav/Documents/Terraform/Day5/lib/pipeline-stack.ts:37:7)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/Day5PipelineStack/Dev/S3Stack/Day5Bucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Day5BucketAutoDeleteObjectsCustomResourceED5FCCDE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}

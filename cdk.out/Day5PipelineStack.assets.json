@@ -1,0 +1,21 @@
+{
+  "version": "55.0.0",
+  "files": {
+    "2069d0a17775e140e8c5953ee666db69eddfe5a7919147fd8a7f6f09d888e8c1": {
+      "displayName": "Day5PipelineStack Template",
+      "source": {
+        "path": "Day5PipelineStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "590852515231-us-east-1-3535463f": {
+          "bucketName": "cdk-hnb659fds-assets-590852515231-us-east-1",
+          "objectKey": "2069d0a17775e140e8c5953ee666db69eddfe5a7919147fd8a7f6f09d888e8c1.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::590852515231:role/cdk-hnb659fds-file-publishing-role-590852515231-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
