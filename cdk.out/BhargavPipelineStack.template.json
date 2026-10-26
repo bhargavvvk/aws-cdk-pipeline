@@ -235,7 +235,7 @@
      "Type": "S3"
     },
     "Name": "BhargavDay5Pipeline",
-    "PipelineType": "V1",
+    "PipelineType": "V2",
     "RestartExecutionOnUpdate": true,
     "RoleArn": {
      "Fn::GetAtt": [

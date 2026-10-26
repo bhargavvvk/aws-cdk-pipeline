@@ -1,4 +1,5 @@
 import * as cdk from 'aws-cdk-lib';
+import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import { Construct } from 'constructs';
 import {
   CodePipeline,
@@ -14,6 +15,7 @@ export class PipelineStack extends cdk.Stack {
 
     const pipeline = new CodePipeline(this, 'Pipeline', {
       pipelineName: 'BhargavDay5Pipeline',
+      pipelineType: codepipeline.PipelineType.V2,
 
       synth: new ShellStep('Synth', {
         input: CodePipelineSource.connection(
@@ -22,7 +24,6 @@ export class PipelineStack extends cdk.Stack {
           {
             connectionArn:
               'arn:aws:codeconnections:us-east-1:590852515231:connection/5cc60f13-2c88-466d-b654-ad83884f299d',
-            triggerOnPush: true,
           }
         ),
 

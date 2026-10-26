@@ -13,7 +13,7 @@
       }
      ]
     },
-    "BucketName": "day5-pipeline-590852515231-us-east-1",
+    "BucketName": "bhargav-day5-590852515231-us-east-1",
     "PublicAccessBlockConfiguration": {
      "BlockPublicAcls": true,
      "BlockPublicPolicy": true,
@@ -25,7 +25,10 @@
       "Key": "aws-cdk:auto-delete-objects",
       "Value": "true"
      }
-    ]
+    ],
+    "VersioningConfiguration": {
+     "Status": "Enabled"
+    }
    },
    "UpdateReplacePolicy": "Delete",
    "DeletionPolicy": "Delete",

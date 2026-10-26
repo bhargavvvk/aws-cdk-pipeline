@@ -12,31 +12,6 @@
       "data": "BhargavPipelineStack.template.json"
     }
   ],
-  "/BhargavPipelineStack/Pipeline": [
-    {
-      "type": "aws:cdk:warning",
-      "data": "V1 pipeline type is implicitly selected when `pipelineType` is not set. If you want to use V2 type, set `PipelineType.V2`. [ack: @aws-cdk/aws-codepipeline:unspecifiedPipelineType]",
-      "trace": [
-        "Annotations.addMessage (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/annotations.js:1:3506)",
-        "Annotations.addWarningV2 (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2194)",
-        "CodePipeline.doBuildPipeline (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/codepipeline/codepipeline.js:1:8180)",
-        "CodePipeline.buildPipeline (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:3044)",
-        "CodePipeline.buildJustInTime (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:3111)",
-        "Object.visit (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/pipelines/lib/main/pipeline-base.js:1:1780)",
-        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6189)",
-        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6447)",
-        "recurse (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:6447)",
-        "invokeAspectsV2 (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:4694)",
-        "synthesize (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:2523)",
-        "App.synth (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/stage.js:1:5061)",
-        "App.synth (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/app.js:1:5126)",
-        "process.<anonymous> (/Users/bhargav/Documents/Terraform/Day5/node_modules/aws-cdk-lib/core/lib/app.js:1:4036)",
-        "process.wrapper (node:events:639:12)",
-        "process.emit (node:events:514:20)",
-        "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/bhargav/Documents/Terraform/Day5/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
-      ]
-    }
-  ],
   "/BhargavPipelineStack/BootstrapVersion": [
     {
       "type": "aws:cdk:logicalId",
