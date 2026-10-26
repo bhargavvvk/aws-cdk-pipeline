@@ -8,7 +8,7 @@ export class S3Stack extends cdk.Stack {
     super(scope, id, props);
 
     new s3.Bucket(this, 'Day5Bucket', {
-      bucketName: `day5-pipeline-${this.account}-${this.region}`,
+      bucketName: `bhargav-day5-${this.account}-${this.region}`,
       versioned: false,
       encryption: s3.BucketEncryption.S3_MANAGED,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
