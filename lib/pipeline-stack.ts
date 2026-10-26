@@ -22,6 +22,7 @@ export class PipelineStack extends cdk.Stack {
           {
             connectionArn:
               'arn:aws:codeconnections:us-east-1:590852515231:connection/5cc60f13-2c88-466d-b654-ad83884f299d',
+            triggerOnPush: true,
           }
         ),
 
