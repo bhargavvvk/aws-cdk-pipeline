@@ -13,7 +13,7 @@ export class PipelineStack extends cdk.Stack {
     super(scope, id, props);
 
     const pipeline = new CodePipeline(this, 'Pipeline', {
-      pipelineName: 'Day5Pipeline',
+      pipelineName: 'BhargavDay5Pipeline',
 
       synth: new ShellStep('Synth', {
         input: CodePipelineSource.connection(

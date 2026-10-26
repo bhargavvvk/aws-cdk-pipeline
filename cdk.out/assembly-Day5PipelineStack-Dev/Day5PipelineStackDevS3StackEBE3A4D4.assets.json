@@ -16,16 +16,16 @@
         }
       }
     },
-    "a2e27aad2d9c488f8cb40a0a9888f48e4d90b9c0f53d29e8b47ee8322787ce2b": {
+    "b4fc2e20cb33f4d16e18ad3ee60c5e5190e36a5fcfcd72c948be40a078871bd3": {
       "displayName": "Dev-S3Stack Template",
       "source": {
         "path": "Day5PipelineStackDevS3StackEBE3A4D4.template.json",
         "packaging": "file"
       },
       "destinations": {
-        "590852515231-us-east-1-01b280e2": {
+        "590852515231-us-east-1-53e47853": {
           "bucketName": "cdk-hnb659fds-assets-590852515231-us-east-1",
-          "objectKey": "a2e27aad2d9c488f8cb40a0a9888f48e4d90b9c0f53d29e8b47ee8322787ce2b.json",
+          "objectKey": "b4fc2e20cb33f4d16e18ad3ee60c5e5190e36a5fcfcd72c948be40a078871bd3.json",
           "region": "us-east-1",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::590852515231:role/cdk-hnb659fds-file-publishing-role-590852515231-us-east-1"
         }

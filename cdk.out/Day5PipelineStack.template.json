@@ -234,7 +234,7 @@
      },
      "Type": "S3"
     },
-    "Name": "Day5Pipeline",
+    "Name": "BhargavDay5Pipeline",
     "PipelineType": "V1",
     "RestartExecutionOnUpdate": true,
     "RoleArn": {
@@ -970,7 +970,7 @@
      "PrivilegedMode": false,
      "Type": "LINUX_CONTAINER"
     },
-    "Name": "Day5Pipeline-selfupdate",
+    "Name": "BhargavDay5Pipeline-selfupdate",
     "ServiceRole": {
      "Fn::GetAtt": [
       "PipelineUpdatePipelineSelfMutationRole57E559E8",

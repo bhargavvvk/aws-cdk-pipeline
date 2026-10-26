@@ -1,35 +1,35 @@
 {
   "version": "55.0.0",
   "artifacts": {
-    "assembly-Day5PipelineStack-Dev": {
+    "assembly-BhargavPipelineStack-Dev": {
       "type": "cdk:cloud-assembly",
       "properties": {
-        "directoryName": "assembly-Day5PipelineStack-Dev",
-        "displayName": "Day5PipelineStack/Dev"
+        "directoryName": "assembly-BhargavPipelineStack-Dev",
+        "displayName": "BhargavPipelineStack/Dev"
       }
     },
-    "Day5PipelineStack.assets": {
+    "BhargavPipelineStack.assets": {
       "type": "cdk:asset-manifest",
       "properties": {
-        "file": "Day5PipelineStack.assets.json",
+        "file": "BhargavPipelineStack.assets.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
       }
     },
-    "Day5PipelineStack": {
+    "BhargavPipelineStack": {
       "type": "aws:cloudformation:stack",
       "environment": "aws://590852515231/us-east-1",
       "properties": {
-        "templateFile": "Day5PipelineStack.template.json",
+        "templateFile": "BhargavPipelineStack.template.json",
         "terminationProtection": false,
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::590852515231:role/cdk-hnb659fds-deploy-role-590852515231-us-east-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::590852515231:role/cdk-hnb659fds-cfn-exec-role-590852515231-us-east-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-590852515231-us-east-1/2069d0a17775e140e8c5953ee666db69eddfe5a7919147fd8a7f6f09d888e8c1.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-590852515231-us-east-1/263250ec3f75c1bb5c9796c4913074dcc9c7026c4251234a77cbd24c7cd25265.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
-          "Day5PipelineStack.assets"
+          "BhargavPipelineStack.assets"
         ],
         "lookupRole": {
           "arn": "arn:${AWS::Partition}:iam::590852515231:role/cdk-hnb659fds-lookup-role-590852515231-us-east-1",
@@ -38,10 +38,10 @@
         }
       },
       "dependencies": [
-        "Day5PipelineStack.assets"
+        "BhargavPipelineStack.assets"
       ],
-      "additionalMetadataFile": "Day5PipelineStack.metadata.json",
-      "displayName": "Day5PipelineStack"
+      "additionalMetadataFile": "BhargavPipelineStack.metadata.json",
+      "displayName": "BhargavPipelineStack"
     },
     "Tree": {
       "type": "cdk:tree",
